@@ -1,16 +1,6 @@
 ﻿extend layout
 block content
-    div.center-content
-        div.logo
-            img(src='img/logo.png')
-        div.inputbox       
-            form(action="/board",method="post")
-                div(data-role='boardID')
-                    label(for='boardID') BoardID
-                        div.boxField
-                            input(id='boardID',type='text',value='',placeholder='',name='boardID',class="boardinput")
-                            input(type="submit",value="Go!",data-transition='fade',data-theme='c',class="inputbutton")
-            p [nodeBOARD - by b4sh.de | enter your id to join your board]
+    canvas#rootCanvas(width='800', height='600')
 
         
            

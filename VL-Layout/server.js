@@ -12,7 +12,7 @@ var bodyparser = require('body-parser');
  */
 var port = process.env.port || 1337;
 var app = express();
-app.set("views", __dirname + "view");
+app.set("views", __dirname + "/view");
 app.set("view engine", "jade");
 app.use(express.static(__dirname + "/public"));
 app.use(bodyparser.urlencoded({ extended: false }));
