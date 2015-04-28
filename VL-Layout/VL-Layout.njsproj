@@ -30,7 +30,10 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="public\js\detector.js" />
     <Compile Include="public\js\main.js" />
+    <Compile Include="public\js\stats.min.js" />
+    <Compile Include="public\js\three.min.js" />
     <Compile Include="server.js" />
     <Content Include="package.json" />
     <Content Include="public\css\main.css" />
