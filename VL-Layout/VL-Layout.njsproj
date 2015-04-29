@@ -32,6 +32,7 @@
   <ItemGroup>
     <Compile Include="public\js\detector.js" />
     <Compile Include="public\js\main.js" />
+    <Compile Include="public\js\shader.js" />
     <Compile Include="public\js\stats.min.js" />
     <Compile Include="public\js\three.min.js" />
     <Compile Include="server.js" />
